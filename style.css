@@ -80,11 +80,16 @@ nav ul li {
     padding: 8px;
 }
 
-li a {
+nav ul li a {
     text-decoration: none;
     color: #e5e7eb;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
+    transition: .2s;
+}
+
+nav ul li a:hover {
+    color: #b5b8bd;
 }
 
 /*Preview*/
