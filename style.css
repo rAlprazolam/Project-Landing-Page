@@ -107,10 +107,6 @@ li a {
     flex: 1;
 }
 
-.inner .left {
-    background-color: red;
-}
-
 .inner .right {
     display: flex;
     background-color: grey;
@@ -128,3 +124,47 @@ li a {
 }
 
 /*Styling the left side of the preview*/
+.inner .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner .headline {
+    flex: 4;
+    flex-wrap: wrap;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.inner article {
+    flex: 4;
+    font-family: sans-serif;
+    font-size: 26px;
+    color: #e5e7eb;
+    opacity: .75;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.inner .btn {
+    flex: 2;
+}
+
+.inner .btn button {
+    border: none;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.inner .btn button:hover {
+    background-color: #255ebb;
+    cursor: pointer;
+}
