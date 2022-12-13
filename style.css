@@ -98,5 +98,33 @@ li a {
 .preview .inner {
     flex: 1;
     height: 80%;
-    background-color: blue;
+
+    display: flex;
 }
+
+.inner .left,
+.inner .right {
+    flex: 1;
+}
+
+.inner .left {
+    background-color: red;
+}
+
+.inner .right {
+    display: flex;
+    background-color: grey;
+}
+
+.inner .right img {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-family: "Roboto", sans-serif;
+}
+
+/*Styling the left side of the preview*/
