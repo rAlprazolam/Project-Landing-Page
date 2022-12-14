@@ -26,16 +26,12 @@ header {
 }
 
 .card-box {
-    flex: 6;
+    flex: 7;
 }
 
 .quote-box {
     flex: 5;
     background-color: #E5E7EB;
-}
-
-.footer {
-    flex: 4;
 }
 
 /*Header and preview box*/
@@ -173,3 +169,67 @@ nav ul li a:hover {
     background-color: #255ebb;
     cursor: pointer;
 }
+
+/*Card-box*/
+.card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-box .inner {
+    height: 90%;
+    width: 75%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-box .inner .header {
+    flex: 25%;
+    align-self: center;
+
+    justify-content: center;
+}
+
+.card-box .inner .header h1 {
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+}
+
+.card-box .inner .cards {
+    flex: 75%;
+    width: 60%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cards .card {
+    height: 100%;
+    width: 17%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cards .card .box {
+    flex: 67%;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+.cards .card .info {
+    flex: 35%;
+    text-align: center;
+    color: #1F2937;
+    opacity: .75;
+    font-family: sans-serif;
+
+    display: flex;
+    align-items: center;
+}
+
