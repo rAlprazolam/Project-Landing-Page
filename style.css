@@ -270,3 +270,12 @@ nav ul li a:hover {
     display: flex;
     justify-content: flex-end;
 }
+
+/*footer*/
+footer {
+    height: 180px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
